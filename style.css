@@ -7,10 +7,10 @@
     color: rgb(255, 255, 255);
 }
 body {
+    padding-top:50px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
     align-items: center;
     background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%);
 }
@@ -23,9 +23,8 @@ header{
     background-color: rgba(0, 0, 0, 0.384);
     border-radius: 10px;
     padding: 10px;
-    min-height: 315px;
-    min-width: 500px;
-
+    min-height: max-content;
+    min-width: max-content;
 }
 .departures table{
     text-align: center;
@@ -85,5 +84,34 @@ header{
     }
     100%{
         top: 4em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: 9px;
+        font-weight:200;
+    }
+    
+    header{
+        font-size: 24px;
+        padding: 3px;
+    }
+    #time{
+        width: 40px;
+    }
+    #destination{
+        width: 100px;
+    }
+    #flight{
+        width: 47px;
+    }
+    #hall{
+        width: 30px;
+    }
+    #State{
+        width: 80px;
+    }
+    .departures table div{
+        min-height: 12px;
     }
 }
