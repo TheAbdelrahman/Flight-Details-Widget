@@ -48,10 +48,10 @@ header{
     color: rgb(255, 255, 255);
 }   
 #time{
-    width: 85px;
+    width: 65px;
 }
 #destination{
-    width: 204px;
+    width:160px;
 }
 #flight{
     width: 86px;
@@ -60,7 +60,7 @@ header{
     width: 51px;
 }
 #State{
-    width: 153px;
+    width: 143px;
 }
 .text-slide{
     transform-style: preserve-3d;
