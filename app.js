@@ -74,6 +74,24 @@ let flights= [
         gate: 'A09',
         remarks: 'Cancelled'
     },    {
+        time: '09:00',
+        destination: 'Beheira     ',
+        flight: 'EG070',
+        gate: 'c07',
+        remarks: 'On time  '
+    },    {
+        time: '04:00',
+        destination: 'Aswan       ',
+        flight: 'EG075',
+        gate: 'd06',
+        remarks: 'Delayed  '
+    },    {
+        time: '05:00',
+        destination: 'Ismailia    ',
+        flight: 'EG085',
+        gate: 'b04',
+        remarks: 'On time  '
+    },    {
         time: '03:00',
         destination: 'Sinai       ',
         flight: 'EG090',
