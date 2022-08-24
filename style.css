@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+* {
+    font-family: 'Aboreto', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%);
+}
+header{
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+.departures{
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 315px;
+    min-width: 500px;
+
+}
+.departures table{
+    text-align: center;
+}
+.departures table th{  
+    background-color: rgba(0, 0, 0, 0.103);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.departures table td{
+    background-color: rgba(0, 0, 0, 0.103);
+    overflow: hidden;
+}
+.departures table div{
+    position:relative;
+    float: left;
+    margin: 1px;
+    min-height: 24px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}   
+#time{
+    width: 85px;
+}
+#destination{
+    width: 204px;
+}
+#flight{
+    width: 86px;
+}
+#hall{
+    width: 51px;
+}
+#State{
+    width: 153px;
+}
+.text-slide{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    animation: 10s  rolling;
+}
+@keyframes rolling {
+    0% {
+        top: 4em;
+    }
+    25%{
+        top: 0em;
+    }
+    50%{
+        top: 0;
+    }
+    65%{
+        top: 0;
+    }
+    75%{
+        top: 0em;
+    }
+    100%{
+        top: 4em;
+    }
+}
